@@ -1,0 +1,2404 @@
+[
+  {
+    "case": "d1",
+    "split": "dev",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "third-party cellular network carriers, wholesalers, retailers and resellers [1]",
+    "citations": [
+      {
+        "chunk_id": "889b5a59210e39b26c9b479891ad703a",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "third-party cellular network carriers, wholesalers, retailers and resellers",
+        "relevance": 6.97611665725708,
+        "rendering": "model-selected span",
+        "subquestion": "Which intermediaries distribute Apple products through its indirect channels?"
+      }
+    ],
+    "retrieved": [
+      "889b5a59210e39b26c9b479891ad703a",
+      "973144bb111ba0166c6a9ef6e04ddbd3",
+      "4c7f206a6299f6aa3289dab0b517cfc0"
+    ],
+    "retrieval_ms": 0.20083300000806048,
+    "end_to_end_ms": 3721.774749999895,
+    "trace_id": "c9d4be52-d788-430a-ac59-452d40c601c5"
+  },
+  {
+    "case": "d1",
+    "split": "dev",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 1,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "f22ba70bd8c9116c293645a69fba3553",
+      "0dea68744ecc674a315741f1320c73c8",
+      "12a039c36d9f947ed92003993012930b"
+    ],
+    "retrieval_ms": 98.64316700009113,
+    "end_to_end_ms": 149.31391599998278,
+    "trace_id": "70dd2df1-7a2c-4daf-9f91-5667b47fa9c5"
+  },
+  {
+    "case": "d1",
+    "split": "dev",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. [1]",
+    "citations": [
+      {
+        "chunk_id": "889b5a59210e39b26c9b479891ad703a",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers.",
+        "relevance": 6.97611665725708,
+        "rendering": "model-selected source sentence",
+        "subquestion": "Which intermediaries distribute Apple products through its indirect channels?"
+      }
+    ],
+    "retrieved": [
+      "889b5a59210e39b26c9b479891ad703a",
+      "1bf781d9c0beb835308de2dd2c8dabb6",
+      "0dea68744ecc674a315741f1320c73c8"
+    ],
+    "retrieval_ms": 0.37550000001829176,
+    "end_to_end_ms": 1061.7777909999404,
+    "trace_id": "eede61dc-2dcb-4bec-8d62-43a953ded538"
+  },
+  {
+    "case": "d1",
+    "split": "dev",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. [1]",
+    "citations": [
+      {
+        "chunk_id": "889b5a59210e39b26c9b479891ad703a",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers.",
+        "relevance": 6.97611665725708,
+        "rendering": "model-selected source sentence",
+        "subquestion": "Which intermediaries distribute Apple products through its indirect channels?"
+      }
+    ],
+    "retrieved": [
+      "889b5a59210e39b26c9b479891ad703a",
+      "1bf781d9c0beb835308de2dd2c8dabb6",
+      "8dde10618614f9d679257a474dbe7149"
+    ],
+    "retrieval_ms": 95.9139999999934,
+    "end_to_end_ms": 1128.2918330000484,
+    "trace_id": "6425d870-a8e5-4089-afff-0f39b7d0d93d"
+  },
+  {
+    "case": "d2",
+    "split": "dev",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster. [1]",
+    "citations": [
+      {
+        "chunk_id": "44779cf661b3a0c10c8ab92666a2bc9a",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster.",
+        "relevance": 8.235061645507812,
+        "rendering": "model-selected span",
+        "subquestion": "How does GitHub Copilot help software developers?"
+      }
+    ],
+    "retrieved": [
+      "3d984e73062c7263af960089486d8014",
+      "44779cf661b3a0c10c8ab92666a2bc9a",
+      "bca4d4ea0bb4aceaac3fa9c992f578f2"
+    ],
+    "retrieval_ms": 0.4050830000323913,
+    "end_to_end_ms": 1598.5739169998396,
+    "trace_id": "1b24af87-32e7-44c3-a8d8-723b5f2a7f4b"
+  },
+  {
+    "case": "d2",
+    "split": "dev",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster. [1]",
+    "citations": [
+      {
+        "chunk_id": "44779cf661b3a0c10c8ab92666a2bc9a",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster.",
+        "relevance": 8.235062599182129,
+        "rendering": "model-selected span",
+        "subquestion": "How does GitHub Copilot help software developers?"
+      }
+    ],
+    "retrieved": [
+      "44779cf661b3a0c10c8ab92666a2bc9a",
+      "fb04d372fcb1871f17d2d76821507915",
+      "3d984e73062c7263af960089486d8014"
+    ],
+    "retrieval_ms": 33.02199999984623,
+    "end_to_end_ms": 1470.3161669999645,
+    "trace_id": "6dcda5a2-77a9-4d5b-a97f-dcb606b9e0a9"
+  },
+  {
+    "case": "d2",
+    "split": "dev",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster. [1]",
+    "citations": [
+      {
+        "chunk_id": "44779cf661b3a0c10c8ab92666a2bc9a",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster.",
+        "relevance": 8.235061645507812,
+        "rendering": "model-selected span",
+        "subquestion": "How does GitHub Copilot help software developers?"
+      }
+    ],
+    "retrieved": [
+      "44779cf661b3a0c10c8ab92666a2bc9a",
+      "3d984e73062c7263af960089486d8014",
+      "bca4d4ea0bb4aceaac3fa9c992f578f2"
+    ],
+    "retrieval_ms": 0.5103340001824108,
+    "end_to_end_ms": 1063.4827500000483,
+    "trace_id": "28453d5c-c7a7-4ed9-a90e-2fc3d3a81454"
+  },
+  {
+    "case": "d2",
+    "split": "dev",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster. [1]",
+    "citations": [
+      {
+        "chunk_id": "44779cf661b3a0c10c8ab92666a2bc9a",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster.",
+        "relevance": 8.235061645507812,
+        "rendering": "model-selected span",
+        "subquestion": "How does GitHub Copilot help software developers?"
+      }
+    ],
+    "retrieved": [
+      "44779cf661b3a0c10c8ab92666a2bc9a",
+      "3d984e73062c7263af960089486d8014",
+      "ecd64802326c0564dbb1c494cf2f0c75"
+    ],
+    "retrieval_ms": 95.28320799995527,
+    "end_to_end_ms": 1113.6872079998739,
+    "trace_id": "e14fec17-6257-43be-8fc1-0d2524a2d794"
+  },
+  {
+    "case": "d3",
+    "split": "dev",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "wafer fabrication, assembly, testing, and packaging. [1]",
+    "citations": [
+      {
+        "chunk_id": "e895dd37405352460ebc044b279844fd",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "wafer fabrication, assembly, testing, and packaging.",
+        "relevance": 6.097315788269043,
+        "rendering": "model-selected span",
+        "subquestion": "Which manufacturing stages does NVIDIA outsource under its fabless strategy?"
+      }
+    ],
+    "retrieved": [
+      "e895dd37405352460ebc044b279844fd",
+      "8c951922b5866e454047d87742feb60e",
+      "f051e6239b1e6820266fe90d520c7313"
+    ],
+    "retrieval_ms": 0.4795419999936712,
+    "end_to_end_ms": 1044.4563749999816,
+    "trace_id": "8cb3ef6f-967c-41cc-b57b-898be64ac7b8"
+  },
+  {
+    "case": "d3",
+    "split": "dev",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "wafer fabrication, assembly, testing, and packaging. [1]",
+    "citations": [
+      {
+        "chunk_id": "e895dd37405352460ebc044b279844fd",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "wafer fabrication, assembly, testing, and packaging.",
+        "relevance": 6.097315788269043,
+        "rendering": "model-selected span",
+        "subquestion": "Which manufacturing stages does NVIDIA outsource under its fabless strategy?"
+      }
+    ],
+    "retrieved": [
+      "e895dd37405352460ebc044b279844fd",
+      "0766aed3d73ade50ed8f83a89fabc978",
+      "5a787a75f714674760c81be574d3b562"
+    ],
+    "retrieval_ms": 30.919125000082204,
+    "end_to_end_ms": 659.0329999999085,
+    "trace_id": "704647e5-ddd1-4b14-99e2-4501547e13a2"
+  },
+  {
+    "case": "d3",
+    "split": "dev",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "wafer fabrication, assembly, testing, and packaging. [1]",
+    "citations": [
+      {
+        "chunk_id": "e895dd37405352460ebc044b279844fd",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "wafer fabrication, assembly, testing, and packaging.",
+        "relevance": 6.097315788269043,
+        "rendering": "model-selected span",
+        "subquestion": "Which manufacturing stages does NVIDIA outsource under its fabless strategy?"
+      }
+    ],
+    "retrieved": [
+      "e895dd37405352460ebc044b279844fd",
+      "8c951922b5866e454047d87742feb60e",
+      "bf4a85f249e68016371512ba70e7c0fb"
+    ],
+    "retrieval_ms": 0.7250830001339637,
+    "end_to_end_ms": 621.8504170001324,
+    "trace_id": "857dc035-9a0b-4a4e-8121-ada6cd047202"
+  },
+  {
+    "case": "d3",
+    "split": "dev",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "wafer fabrication, assembly, testing, and packaging. [1]",
+    "citations": [
+      {
+        "chunk_id": "e895dd37405352460ebc044b279844fd",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "wafer fabrication, assembly, testing, and packaging.",
+        "relevance": 6.097315788269043,
+        "rendering": "model-selected span",
+        "subquestion": "Which manufacturing stages does NVIDIA outsource under its fabless strategy?"
+      }
+    ],
+    "retrieved": [
+      "e895dd37405352460ebc044b279844fd",
+      "0766aed3d73ade50ed8f83a89fabc978",
+      "8c951922b5866e454047d87742feb60e"
+    ],
+    "retrieval_ms": 111.7314160001115,
+    "end_to_end_ms": 734.9720419999812,
+    "trace_id": "2ef63d36-4ac0-42ec-94f0-163a92e233f0"
+  },
+  {
+    "case": "d4",
+    "split": "dev",
+    "method": "BM25",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "ce48df138eb97d6d07285e6a4e1279d9",
+      "6c9b87b25ef36ba98c299329a9f21de6",
+      "65e7e900e8fb5a119902e1cda58a8147"
+    ],
+    "retrieval_ms": 0.21729199988840264,
+    "end_to_end_ms": 47.24995800006582,
+    "trace_id": "d237433e-31ab-451c-9972-ddfff6fdf5ba"
+  },
+  {
+    "case": "d4",
+    "split": "dev",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "6c9b87b25ef36ba98c299329a9f21de6",
+      "c09344d1911cce1c38277bcd6c0f89ca",
+      "70c3477b03439498e9df6eb907fd949d"
+    ],
+    "retrieval_ms": 28.998124999816355,
+    "end_to_end_ms": 78.69379199996729,
+    "trace_id": "880b6c8a-aa7e-4c44-a007-f372fb326ba8"
+  },
+  {
+    "case": "d4",
+    "split": "dev",
+    "method": "Hybrid",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "6c9b87b25ef36ba98c299329a9f21de6",
+      "ce48df138eb97d6d07285e6a4e1279d9",
+      "f3a3c4da2e75355a14f1280a61ef5826"
+    ],
+    "retrieval_ms": 0.28904099985993525,
+    "end_to_end_ms": 42.41500000011911,
+    "trace_id": "e923a0cc-f4e3-469e-87fc-a47ad5df0c12"
+  },
+  {
+    "case": "d4",
+    "split": "dev",
+    "method": "Hybrid + reranker",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "f3a3c4da2e75355a14f1280a61ef5826",
+      "6c9b87b25ef36ba98c299329a9f21de6",
+      "ce48df138eb97d6d07285e6a4e1279d9"
+    ],
+    "retrieval_ms": 103.72695800015208,
+    "end_to_end_ms": 146.06337499981237,
+    "trace_id": "8ab1cdec-908c-476c-a97f-605538326f74"
+  },
+  {
+    "case": "d5",
+    "split": "dev",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware. [1]",
+    "citations": [
+      {
+        "chunk_id": "94d4b16decc730b55e2c287c70a40bc2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1A",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware.",
+        "relevance": 7.62066125869751,
+        "rendering": "model-selected span",
+        "subquestion": "How do supply chain attackers introduce malware?"
+      }
+    ],
+    "retrieved": [
+      "94d4b16decc730b55e2c287c70a40bc2",
+      "20606911719b59268a87a279fc3c8b22",
+      "d4c38971ae2113fe806c9b2a4e37984f"
+    ],
+    "retrieval_ms": 0.35316599996804143,
+    "end_to_end_ms": 1146.2037909998344,
+    "trace_id": "6385dc5f-392e-44d4-97fd-8017845f2e01"
+  },
+  {
+    "case": "d5",
+    "split": "dev",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware. [1]",
+    "citations": [
+      {
+        "chunk_id": "94d4b16decc730b55e2c287c70a40bc2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1A",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware.",
+        "relevance": 7.62066125869751,
+        "rendering": "model-selected span",
+        "subquestion": "How do supply chain attackers introduce malware?"
+      }
+    ],
+    "retrieved": [
+      "94d4b16decc730b55e2c287c70a40bc2",
+      "cf61bd62213461e6bafeb09fb112a302",
+      "86f37bc39e5542944ea4d3ea860f367e"
+    ],
+    "retrieval_ms": 28.19137500000579,
+    "end_to_end_ms": 815.6857080000464,
+    "trace_id": "42ae0195-6f44-4d32-932b-936a6e4826f5"
+  },
+  {
+    "case": "d5",
+    "split": "dev",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware. [1]",
+    "citations": [
+      {
+        "chunk_id": "94d4b16decc730b55e2c287c70a40bc2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1A",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware.",
+        "relevance": 7.62066125869751,
+        "rendering": "model-selected span",
+        "subquestion": "How do supply chain attackers introduce malware?"
+      }
+    ],
+    "retrieved": [
+      "94d4b16decc730b55e2c287c70a40bc2",
+      "20606911719b59268a87a279fc3c8b22",
+      "d4c38971ae2113fe806c9b2a4e37984f"
+    ],
+    "retrieval_ms": 0.5890830000225833,
+    "end_to_end_ms": 789.8357500000657,
+    "trace_id": "bfb24cff-a08d-46bb-9ece-df74092da499"
+  },
+  {
+    "case": "d5",
+    "split": "dev",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware. [1]",
+    "citations": [
+      {
+        "chunk_id": "94d4b16decc730b55e2c287c70a40bc2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1A",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware.",
+        "relevance": 7.62066125869751,
+        "rendering": "model-selected span",
+        "subquestion": "How do supply chain attackers introduce malware?"
+      }
+    ],
+    "retrieved": [
+      "94d4b16decc730b55e2c287c70a40bc2",
+      "20606911719b59268a87a279fc3c8b22",
+      "d4c38971ae2113fe806c9b2a4e37984f"
+    ],
+    "retrieval_ms": 87.08720800018455,
+    "end_to_end_ms": 893.9469590000044,
+    "trace_id": "83ce4b76-b8d6-48ae-995f-6fa4639bcf27"
+  },
+  {
+    "case": "d6",
+    "split": "dev",
+    "method": "BM25",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.037500000189538696,
+    "end_to_end_ms": 0.1478750000387663,
+    "trace_id": "c1d35e80-d36d-462d-af0d-73aaebb5539e"
+  },
+  {
+    "case": "d6",
+    "split": "dev",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.03245800007789512,
+    "end_to_end_ms": 0.1724999999623833,
+    "trace_id": "2fc649f5-74e4-4c46-9ac0-4756e3f5364a"
+  },
+  {
+    "case": "d6",
+    "split": "dev",
+    "method": "Hybrid",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.030084000172792003,
+    "end_to_end_ms": 0.09987500015995465,
+    "trace_id": "969cdd41-5f1b-43f2-b5fc-688ded9c7422"
+  },
+  {
+    "case": "d6",
+    "split": "dev",
+    "method": "Hybrid + reranker",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.022166999997352832,
+    "end_to_end_ms": 0.07470799982911558,
+    "trace_id": "493c31dc-d8e4-429b-a9e1-cb2a9d4ec031"
+  },
+  {
+    "case": "h1",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 0,
+    "gold": 1,
+    "k": 3,
+    "rr": 0,
+    "status": "answered",
+    "answer": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. [1]",
+    "citations": [
+      {
+        "chunk_id": "10d401b7f76de862d4371c67306b84bd",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1A",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand.",
+        "relevance": 7.540600776672363,
+        "rendering": "model-selected source sentence",
+        "subquestion": "Why does Apple see stronger sales in its first fiscal quarter?"
+      }
+    ],
+    "retrieved": [
+      "6c9b87b25ef36ba98c299329a9f21de6",
+      "663eddd3c91733674e3e1c0455a1094b",
+      "10d401b7f76de862d4371c67306b84bd"
+    ],
+    "retrieval_ms": 0.2270410000164702,
+    "end_to_end_ms": 1072.896124999943,
+    "trace_id": "f1ece201-44cf-4136-b17c-764aca1f819b"
+  },
+  {
+    "case": "h1",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 1,
+    "k": 3,
+    "rr": 0,
+    "status": "answered",
+    "answer": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. [1]",
+    "citations": [
+      {
+        "chunk_id": "10d401b7f76de862d4371c67306b84bd",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1A",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand.",
+        "relevance": 7.540600776672363,
+        "rendering": "model-selected source sentence",
+        "subquestion": "Why does Apple see stronger sales in its first fiscal quarter?"
+      }
+    ],
+    "retrieved": [
+      "10d401b7f76de862d4371c67306b84bd",
+      "2d0f193b41d5575a4f4c0476d1a6187b",
+      "663eddd3c91733674e3e1c0455a1094b"
+    ],
+    "retrieval_ms": 29.406500000050073,
+    "end_to_end_ms": 531.2140409998847,
+    "trace_id": "875ae33d-30d3-44e2-9d91-65a538c347ed"
+  },
+  {
+    "case": "h1",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 0,
+    "gold": 1,
+    "k": 3,
+    "rr": 0,
+    "status": "answered",
+    "answer": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. [1]",
+    "citations": [
+      {
+        "chunk_id": "10d401b7f76de862d4371c67306b84bd",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1A",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand.",
+        "relevance": 7.540600776672363,
+        "rendering": "model-selected source sentence",
+        "subquestion": "Why does Apple see stronger sales in its first fiscal quarter?"
+      }
+    ],
+    "retrieved": [
+      "10d401b7f76de862d4371c67306b84bd",
+      "6c9b87b25ef36ba98c299329a9f21de6",
+      "663eddd3c91733674e3e1c0455a1094b"
+    ],
+    "retrieval_ms": 0.34712499996203405,
+    "end_to_end_ms": 510.47345799997856,
+    "trace_id": "6fcac7da-cb66-44cf-a5cd-63c7869ac7e7"
+  },
+  {
+    "case": "h1",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 0.3333333333333333,
+    "status": "answered",
+    "answer": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. [1]",
+    "citations": [
+      {
+        "chunk_id": "10d401b7f76de862d4371c67306b84bd",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1A",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand.",
+        "relevance": 7.540600776672363,
+        "rendering": "model-selected source sentence",
+        "subquestion": "Why does Apple see stronger sales in its first fiscal quarter?"
+      }
+    ],
+    "retrieved": [
+      "10d401b7f76de862d4371c67306b84bd",
+      "6c9b87b25ef36ba98c299329a9f21de6",
+      "973144bb111ba0166c6a9ef6e04ddbd3"
+    ],
+    "retrieval_ms": 105.98020900010852,
+    "end_to_end_ms": 924.7646250000798,
+    "trace_id": "cc1f3422-f801-4ee7-981c-23b42777b254"
+  },
+  {
+    "case": "h2",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "higher net sales from advertising, the App Store® and cloud services. [1]",
+    "citations": [
+      {
+        "chunk_id": "2d0f193b41d5575a4f4c0476d1a6187b",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "higher net sales from advertising, the App Store® and cloud services.",
+        "relevance": 5.436394214630127,
+        "rendering": "model-selected span",
+        "subquestion": "Which activities drove the increase in Services net sales?"
+      }
+    ],
+    "retrieved": [
+      "a69abae24616798dbc2bfb85ab143eba",
+      "2d0f193b41d5575a4f4c0476d1a6187b",
+      "367099d0e69ad819402d1edd6a9a1dd1"
+    ],
+    "retrieval_ms": 0.2650410001479031,
+    "end_to_end_ms": 1036.6763330000595,
+    "trace_id": "c6a41cf5-22a9-4c26-86a3-e11057631799"
+  },
+  {
+    "case": "h2",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 1,
+    "k": 3,
+    "rr": 0,
+    "status": "answered",
+    "answer": "Services gross margin increased during 2024 compared to 2023 due primarily to higher Services net sales. [1]",
+    "citations": [
+      {
+        "chunk_id": "ca7d3a38c8f3a43361e9c2d88697d8ab",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "Services gross margin increased during 2024 compared to 2023 due primarily to higher Services net sales.",
+        "relevance": 1.1222403049468994,
+        "rendering": "model-selected source sentence",
+        "subquestion": "Which activities drove the increase in Services net sales?"
+      }
+    ],
+    "retrieved": [
+      "10d401b7f76de862d4371c67306b84bd",
+      "ca7d3a38c8f3a43361e9c2d88697d8ab",
+      "12ace525bf0b70e1fad4f7eefba58f0e"
+    ],
+    "retrieval_ms": 28.47479199999725,
+    "end_to_end_ms": 954.9724999999398,
+    "trace_id": "f0203c3a-cc69-46af-adae-b7d4c576d89a"
+  },
+  {
+    "case": "h2",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "higher net sales from advertising, the App Store® and cloud services. [1]",
+    "citations": [
+      {
+        "chunk_id": "2d0f193b41d5575a4f4c0476d1a6187b",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "higher net sales from advertising, the App Store® and cloud services.",
+        "relevance": 5.436394214630127,
+        "rendering": "model-selected span",
+        "subquestion": "Which activities drove the increase in Services net sales?"
+      }
+    ],
+    "retrieved": [
+      "2d0f193b41d5575a4f4c0476d1a6187b",
+      "10d401b7f76de862d4371c67306b84bd",
+      "367099d0e69ad819402d1edd6a9a1dd1"
+    ],
+    "retrieval_ms": 0.38304200006678,
+    "end_to_end_ms": 964.6191669999098,
+    "trace_id": "9d675ea2-0cd2-498a-9dca-c32b086fb504"
+  },
+  {
+    "case": "h2",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "higher net sales from advertising, the App Store® and cloud services. [1]",
+    "citations": [
+      {
+        "chunk_id": "2d0f193b41d5575a4f4c0476d1a6187b",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "higher net sales from advertising, the App Store® and cloud services.",
+        "relevance": 5.436394214630127,
+        "rendering": "model-selected span",
+        "subquestion": "Which activities drove the increase in Services net sales?"
+      }
+    ],
+    "retrieved": [
+      "10d401b7f76de862d4371c67306b84bd",
+      "2d0f193b41d5575a4f4c0476d1a6187b",
+      "ca7d3a38c8f3a43361e9c2d88697d8ab"
+    ],
+    "retrieval_ms": 104.40770900004281,
+    "end_to_end_ms": 1129.9905829998806,
+    "trace_id": "3f6d0c9d-b352-4027-a16d-046f27e544f0"
+  },
+  {
+    "case": "h3",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 2,
+    "gold": 3,
+    "k": 3,
+    "rr": 1.0,
+    "status": "partial",
+    "answer": "The Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms. [1] Insufficient evidence for: how did advertising contribute to Services growth?",
+    "citations": [
+      {
+        "chunk_id": "f22ba70bd8c9116c293645a69fba3553",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms.",
+        "relevance": 4.202803611755371,
+        "rendering": "model-selected span",
+        "subquestion": "How does Apple sell advertising"
+      }
+    ],
+    "retrieved": [
+      "f22ba70bd8c9116c293645a69fba3553",
+      "ffc08809229f7fbe7a0533ec04bd042c",
+      "26eab98bd808def0e37b7e982e814b8a"
+    ],
+    "retrieval_ms": 0.23187500005406037,
+    "end_to_end_ms": 1587.4267080000664,
+    "trace_id": "ca162042-1c70-4499-9727-d3c1c2892a19"
+  },
+  {
+    "case": "h3",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 3,
+    "k": 3,
+    "rr": 1.0,
+    "status": "partial",
+    "answer": "The Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms. [1] Insufficient evidence for: how did advertising contribute to Services growth?",
+    "citations": [
+      {
+        "chunk_id": "f22ba70bd8c9116c293645a69fba3553",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "1",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "The Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms.",
+        "relevance": 4.202803611755371,
+        "rendering": "model-selected span",
+        "subquestion": "How does Apple sell advertising"
+      }
+    ],
+    "retrieved": [
+      "f22ba70bd8c9116c293645a69fba3553",
+      "12a039c36d9f947ed92003993012930b",
+      "8dde10618614f9d679257a474dbe7149"
+    ],
+    "retrieval_ms": 26.76591699992059,
+    "end_to_end_ms": 856.1525829998118,
+    "trace_id": "ad549197-a2bd-4043-992d-69cdcf098ee2"
+  },
+  {
+    "case": "h3",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 2,
+    "gold": 3,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services. [1] Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services. [2]",
+    "citations": [
+      {
+        "chunk_id": "2d0f193b41d5575a4f4c0476d1a6187b",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.",
+        "relevance": 2.4157769680023193,
+        "rendering": "model-selected span",
+        "subquestion": "How does Apple sell advertising"
+      },
+      {
+        "chunk_id": "2d0f193b41d5575a4f4c0476d1a6187b",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.",
+        "relevance": 0.8467475175857544,
+        "rendering": "model-selected span",
+        "subquestion": "how did advertising contribute to Services growth?"
+      }
+    ],
+    "retrieved": [
+      "f22ba70bd8c9116c293645a69fba3553",
+      "2d0f193b41d5575a4f4c0476d1a6187b",
+      "90c739f37b2b9712b6df256060ec5554"
+    ],
+    "retrieval_ms": 0.3118749998520798,
+    "end_to_end_ms": 2743.327208999972,
+    "trace_id": "d88b519d-f745-4edd-b00b-ccad46f4c52a"
+  },
+  {
+    "case": "h3",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 2,
+    "gold": 3,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services. [1] Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services. [2]",
+    "citations": [
+      {
+        "chunk_id": "2d0f193b41d5575a4f4c0476d1a6187b",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.",
+        "relevance": 2.4157769680023193,
+        "rendering": "model-selected span",
+        "subquestion": "How does Apple sell advertising"
+      },
+      {
+        "chunk_id": "2d0f193b41d5575a4f4c0476d1a6187b",
+        "ticker": "AAPL",
+        "accession": "0000320193-24-000123",
+        "section": "7",
+        "filed": "2024-11-01",
+        "period": "2024-09-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "excerpt": "Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.",
+        "relevance": 0.8467475175857544,
+        "rendering": "model-selected span",
+        "subquestion": "how did advertising contribute to Services growth?"
+      }
+    ],
+    "retrieved": [
+      "f22ba70bd8c9116c293645a69fba3553",
+      "2d0f193b41d5575a4f4c0476d1a6187b",
+      "b50d5fd682f6a5724e34e8ae23edeab7"
+    ],
+    "retrieval_ms": 113.98899999994683,
+    "end_to_end_ms": 3405.8903329998884,
+    "trace_id": "98230937-289d-40cc-ad90-5d0127820bcd"
+  },
+  {
+    "case": "h4",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Palo Alto Networks and Cisco [1]",
+    "citations": [
+      {
+        "chunk_id": "d8b0fbc55b13205c9e7a8027fd3fd62c",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Palo Alto Networks and Cisco",
+        "relevance": 6.239538192749023,
+        "rendering": "model-selected span",
+        "subquestion": "Which rivals does Microsoft identify for its Azure Security offerings?"
+      }
+    ],
+    "retrieved": [
+      "d8b0fbc55b13205c9e7a8027fd3fd62c",
+      "0f2f16059f28b60f5fa3acce57f109d5",
+      "86039d364f32bf212691b24ff9317cdc"
+    ],
+    "retrieval_ms": 0.41512500001772423,
+    "end_to_end_ms": 1234.2410420001215,
+    "trace_id": "65ec3d21-ff47-48b1-9909-7827d4e92d98"
+  },
+  {
+    "case": "h4",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Palo Alto Networks and Cisco [1]",
+    "citations": [
+      {
+        "chunk_id": "d8b0fbc55b13205c9e7a8027fd3fd62c",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Palo Alto Networks and Cisco",
+        "relevance": 6.239538192749023,
+        "rendering": "model-selected span",
+        "subquestion": "Which rivals does Microsoft identify for its Azure Security offerings?"
+      }
+    ],
+    "retrieved": [
+      "d8b0fbc55b13205c9e7a8027fd3fd62c",
+      "3390cc8fa519e84966c04aa1b3a544c7",
+      "0f2f16059f28b60f5fa3acce57f109d5"
+    ],
+    "retrieval_ms": 29.550458000130675,
+    "end_to_end_ms": 987.5003329998435,
+    "trace_id": "0eb39f6d-1d90-401f-8986-249c219a6779"
+  },
+  {
+    "case": "h4",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Palo Alto Networks and Cisco [1]",
+    "citations": [
+      {
+        "chunk_id": "d8b0fbc55b13205c9e7a8027fd3fd62c",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Palo Alto Networks and Cisco",
+        "relevance": 6.239538192749023,
+        "rendering": "model-selected span",
+        "subquestion": "Which rivals does Microsoft identify for its Azure Security offerings?"
+      }
+    ],
+    "retrieved": [
+      "d8b0fbc55b13205c9e7a8027fd3fd62c",
+      "0f2f16059f28b60f5fa3acce57f109d5",
+      "3390cc8fa519e84966c04aa1b3a544c7"
+    ],
+    "retrieval_ms": 0.6010419999711303,
+    "end_to_end_ms": 536.9036669999332,
+    "trace_id": "2f13f474-82d9-44e0-a1e6-3f4812954cdf"
+  },
+  {
+    "case": "h4",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Palo Alto Networks and Cisco [1]",
+    "citations": [
+      {
+        "chunk_id": "d8b0fbc55b13205c9e7a8027fd3fd62c",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Palo Alto Networks and Cisco",
+        "relevance": 6.239538192749023,
+        "rendering": "model-selected span",
+        "subquestion": "Which rivals does Microsoft identify for its Azure Security offerings?"
+      }
+    ],
+    "retrieved": [
+      "d8b0fbc55b13205c9e7a8027fd3fd62c",
+      "3390cc8fa519e84966c04aa1b3a544c7",
+      "4723228aacabe784e70719d248d200f2"
+    ],
+    "retrieval_ms": 97.69445799997811,
+    "end_to_end_ms": 640.9771659998569,
+    "trace_id": "5921ad68-1b2a-4516-b574-17c2b60b91b0"
+  },
+  {
+    "case": "h5",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, using open source AI models, and earning revenue on advertising or integrated products and services. [1]",
+    "citations": [
+      {
+        "chunk_id": "a0a9da291c6f1385c305c1b3ae8b219d",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1A",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, using open source AI models, and earning revenue on advertising or integrated products and services.",
+        "relevance": 7.462172508239746,
+        "rendering": "model-selected span",
+        "subquestion": "How can companies use open source software and still earn revenue while competing with Microsoft?"
+      }
+    ],
+    "retrieved": [
+      "a0a9da291c6f1385c305c1b3ae8b219d",
+      "e003dff3b61fb09c17890418a32b8a71",
+      "694490f78157744e0b57d3ba9da37e5a"
+    ],
+    "retrieval_ms": 0.7416660000671982,
+    "end_to_end_ms": 1800.1254169998901,
+    "trace_id": "fe30b5af-b439-460d-9c53-e6e777b5e1b0"
+  },
+  {
+    "case": "h5",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 1,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "b12f35f0d1c75bab0f9c4a86e73ad5cd",
+      "b9f1c1d5c5c4767fc0d054137f53daa4",
+      "d0da5e0b2985cbf8a9ff87586addb56c"
+    ],
+    "retrieval_ms": 30.31333299986727,
+    "end_to_end_ms": 67.94891599997754,
+    "trace_id": "baab187b-4585-4fdc-9330-e412cbba0db8"
+  },
+  {
+    "case": "h5",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 0.3333333333333333,
+    "status": "answered",
+    "answer": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, using open source AI models, and earning revenue on advertising or integrated products and services. [1]",
+    "citations": [
+      {
+        "chunk_id": "a0a9da291c6f1385c305c1b3ae8b219d",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1A",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, using open source AI models, and earning revenue on advertising or integrated products and services.",
+        "relevance": 7.462172508239746,
+        "rendering": "model-selected span",
+        "subquestion": "How can companies use open source software and still earn revenue while competing with Microsoft?"
+      }
+    ],
+    "retrieved": [
+      "694490f78157744e0b57d3ba9da37e5a",
+      "329cfe7181549d0787dfddffe91c63a3",
+      "a0a9da291c6f1385c305c1b3ae8b219d"
+    ],
+    "retrieval_ms": 0.7890829999723792,
+    "end_to_end_ms": 1481.269083999905,
+    "trace_id": "aa3cdfb7-0872-42ad-a917-f6ff595e613c"
+  },
+  {
+    "case": "h5",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, using open source AI models, and earning revenue on advertising or integrated products and services. [1]",
+    "citations": [
+      {
+        "chunk_id": "a0a9da291c6f1385c305c1b3ae8b219d",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1A",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, using open source AI models, and earning revenue on advertising or integrated products and services.",
+        "relevance": 7.462172508239746,
+        "rendering": "model-selected span",
+        "subquestion": "How can companies use open source software and still earn revenue while competing with Microsoft?"
+      }
+    ],
+    "retrieved": [
+      "a0a9da291c6f1385c305c1b3ae8b219d",
+      "3390cc8fa519e84966c04aa1b3a544c7",
+      "694490f78157744e0b57d3ba9da37e5a"
+    ],
+    "retrieval_ms": 100.00258299987763,
+    "end_to_end_ms": 1248.0458750001162,
+    "trace_id": "7818dd99-b528-4217-9018-d2b88007d6c9"
+  },
+  {
+    "case": "h6",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "The net impact reflects the change of Activision Blizzard content from third-party to first-party. [1]",
+    "citations": [
+      {
+        "chunk_id": "dc4fa7c2514605df378da508d9b01869",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "7",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "The net impact reflects the change of Activision Blizzard content from third-party to first-party.",
+        "relevance": 1.5148398876190186,
+        "rendering": "model-selected span",
+        "subquestion": "How did the Activision Blizzard acquisition change the classification of Xbox content?"
+      }
+    ],
+    "retrieved": [
+      "dc4fa7c2514605df378da508d9b01869",
+      "7c5c25366ec4923aa0d2c8b4129e31d0",
+      "b9fa6f278d225dded854e469db14470d"
+    ],
+    "retrieval_ms": 0.5067079998752888,
+    "end_to_end_ms": 1658.8831250001022,
+    "trace_id": "36b0a601-5c78-4fbb-967c-a60424334417"
+  },
+  {
+    "case": "h6",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "The net impact reflects the change of Activision Blizzard content from third-party to first-party. [1]",
+    "citations": [
+      {
+        "chunk_id": "dc4fa7c2514605df378da508d9b01869",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "7",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "The net impact reflects the change of Activision Blizzard content from third-party to first-party.",
+        "relevance": 1.5148394107818604,
+        "rendering": "model-selected span",
+        "subquestion": "How did the Activision Blizzard acquisition change the classification of Xbox content?"
+      }
+    ],
+    "retrieved": [
+      "f9c22660002c680999ef84c86590d41a",
+      "dc4fa7c2514605df378da508d9b01869",
+      "7c5c25366ec4923aa0d2c8b4129e31d0"
+    ],
+    "retrieval_ms": 30.25237500014555,
+    "end_to_end_ms": 856.5350839999155,
+    "trace_id": "5bf83760-6a5b-4d21-863f-41c2e543dfc7"
+  },
+  {
+    "case": "h6",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "The net impact reflects the change of Activision Blizzard content from third-party to first-party. [1]",
+    "citations": [
+      {
+        "chunk_id": "dc4fa7c2514605df378da508d9b01869",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "7",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "The net impact reflects the change of Activision Blizzard content from third-party to first-party.",
+        "relevance": 1.5148394107818604,
+        "rendering": "model-selected span",
+        "subquestion": "How did the Activision Blizzard acquisition change the classification of Xbox content?"
+      }
+    ],
+    "retrieved": [
+      "dc4fa7c2514605df378da508d9b01869",
+      "7c5c25366ec4923aa0d2c8b4129e31d0",
+      "09abe216f9435f073b44ee59916a0556"
+    ],
+    "retrieval_ms": 0.8100420000118902,
+    "end_to_end_ms": 819.42554200009,
+    "trace_id": "27fcf1a5-e494-423e-8ff7-67afef70acef"
+  },
+  {
+    "case": "h6",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "The net impact reflects the change of Activision Blizzard content from third-party to first-party. [1]",
+    "citations": [
+      {
+        "chunk_id": "dc4fa7c2514605df378da508d9b01869",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "7",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "The net impact reflects the change of Activision Blizzard content from third-party to first-party.",
+        "relevance": 1.5148398876190186,
+        "rendering": "model-selected span",
+        "subquestion": "How did the Activision Blizzard acquisition change the classification of Xbox content?"
+      }
+    ],
+    "retrieved": [
+      "dc4fa7c2514605df378da508d9b01869",
+      "7c5c25366ec4923aa0d2c8b4129e31d0",
+      "685d82922e3ba8a19c807826317bf433"
+    ],
+    "retrieval_ms": 128.30841700019846,
+    "end_to_end_ms": 952.4769580000338,
+    "trace_id": "d604b788-b8b0-439a-bbbc-94f09c6ffda3"
+  },
+  {
+    "case": "h7",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 2,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "We may incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines. [1]",
+    "citations": [
+      {
+        "chunk_id": "f9bb11a2cd088c5f6c42b975b1f09950",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1A",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "We may incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines.",
+        "relevance": 6.385471343994141,
+        "rendering": "model-selected source sentence",
+        "subquestion": "What happens when NVIDIA commits to more inventory or capacity than customers need?"
+      }
+    ],
+    "retrieved": [
+      "f744cad5f2893f9492eebeee412d9fc4",
+      "f9bb11a2cd088c5f6c42b975b1f09950",
+      "162dbf8f25532160f3711f9ef6b10b38"
+    ],
+    "retrieval_ms": 0.6497090000721073,
+    "end_to_end_ms": 2062.648667000076,
+    "trace_id": "1be4abdb-f925-4005-8f7b-bbba74812bcf"
+  },
+  {
+    "case": "h7",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 2,
+    "k": 3,
+    "rr": 0,
+    "status": "answered",
+    "answer": "This mismatch has resulted in both product shortages and excess inventory, has varied across our market platforms, and has significantly harmed our financial results. [1]",
+    "citations": [
+      {
+        "chunk_id": "28ff0551699266ef34afd8f1c6bba42e",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1A",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "This mismatch has resulted in both product shortages and excess inventory, has varied across our market platforms, and has significantly harmed our financial results.",
+        "relevance": 2.9765844345092773,
+        "rendering": "model-selected span",
+        "subquestion": "What happens when NVIDIA commits to more inventory or capacity than customers need?"
+      }
+    ],
+    "retrieved": [
+      "6b01c49eb995cb346632dd4af7eadf00",
+      "28ff0551699266ef34afd8f1c6bba42e",
+      "937ce18c280376328d412f1d92b26aee"
+    ],
+    "retrieval_ms": 30.557000000044354,
+    "end_to_end_ms": 2002.0949170000222,
+    "trace_id": "75e41575-d13e-4c58-b423-b5aa3152513f"
+  },
+  {
+    "case": "h7",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 2,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "We may incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines. [1]",
+    "citations": [
+      {
+        "chunk_id": "f9bb11a2cd088c5f6c42b975b1f09950",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1A",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "We may incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines.",
+        "relevance": 6.385471343994141,
+        "rendering": "model-selected span",
+        "subquestion": "What happens when NVIDIA commits to more inventory or capacity than customers need?"
+      }
+    ],
+    "retrieved": [
+      "f9bb11a2cd088c5f6c42b975b1f09950",
+      "28ff0551699266ef34afd8f1c6bba42e",
+      "e77e8cbc8203af32ae98340c21557d45"
+    ],
+    "retrieval_ms": 0.7417090000672033,
+    "end_to_end_ms": 2478.27504199995,
+    "trace_id": "32125a83-7e90-452d-830c-3c096ede5ebd"
+  },
+  {
+    "case": "h7",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 2,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "We may incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines. [1]",
+    "citations": [
+      {
+        "chunk_id": "f9bb11a2cd088c5f6c42b975b1f09950",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1A",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "We may incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines.",
+        "relevance": 6.385471343994141,
+        "rendering": "model-selected span",
+        "subquestion": "What happens when NVIDIA commits to more inventory or capacity than customers need?"
+      }
+    ],
+    "retrieved": [
+      "e77e8cbc8203af32ae98340c21557d45",
+      "f9bb11a2cd088c5f6c42b975b1f09950",
+      "28ff0551699266ef34afd8f1c6bba42e"
+    ],
+    "retrieval_ms": 91.95004200000767,
+    "end_to_end_ms": 988.1324169998607,
+    "trace_id": "8add56cd-cbca-4b48-8407-f370eaf5ef0b"
+  },
+  {
+    "case": "h8",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 2,
+    "gold": 3,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU. [1] Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs. [2]",
+    "citations": [
+      {
+        "chunk_id": "eab7c205636bbdf6a170676a1d7106b0",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU.",
+        "relevance": 2.6125481128692627,
+        "rendering": "model-selected source sentence",
+        "subquestion": "What did the Mellanox deal add"
+      },
+      {
+        "chunk_id": "d697584d6a69a758e3ebc0f9842636f7",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs.",
+        "relevance": 3.3743090629577637,
+        "rendering": "model-selected span",
+        "subquestion": "what role does CUDA play in the software stack?"
+      }
+    ],
+    "retrieved": [
+      "eab7c205636bbdf6a170676a1d7106b0",
+      "f02a459107628ba561d38bf2e82805f9",
+      "d697584d6a69a758e3ebc0f9842636f7"
+    ],
+    "retrieval_ms": 0.5404999999427673,
+    "end_to_end_ms": 3249.9453749999248,
+    "trace_id": "57565b7a-4bd7-4462-aa7b-31a9ee7cacfb"
+  },
+  {
+    "case": "h8",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 2,
+    "gold": 3,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU. [1] Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs. [2]",
+    "citations": [
+      {
+        "chunk_id": "eab7c205636bbdf6a170676a1d7106b0",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU.",
+        "relevance": 2.6125481128692627,
+        "rendering": "model-selected source sentence",
+        "subquestion": "What did the Mellanox deal add"
+      },
+      {
+        "chunk_id": "d697584d6a69a758e3ebc0f9842636f7",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs.",
+        "relevance": 3.3743090629577637,
+        "rendering": "model-selected span",
+        "subquestion": "what role does CUDA play in the software stack?"
+      }
+    ],
+    "retrieved": [
+      "3546481dcf40fc40768e948d6eec532a",
+      "eab7c205636bbdf6a170676a1d7106b0",
+      "d697584d6a69a758e3ebc0f9842636f7"
+    ],
+    "retrieval_ms": 25.877374999936364,
+    "end_to_end_ms": 3254.6640830000797,
+    "trace_id": "c88ea209-acd7-4650-8bc3-27c04f99b009"
+  },
+  {
+    "case": "h8",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 3,
+    "gold": 3,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU. [1] Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs. [2]",
+    "citations": [
+      {
+        "chunk_id": "eab7c205636bbdf6a170676a1d7106b0",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU.",
+        "relevance": 2.6125481128692627,
+        "rendering": "model-selected source sentence",
+        "subquestion": "What did the Mellanox deal add"
+      },
+      {
+        "chunk_id": "d697584d6a69a758e3ebc0f9842636f7",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs.",
+        "relevance": 3.3743090629577637,
+        "rendering": "model-selected span",
+        "subquestion": "what role does CUDA play in the software stack?"
+      }
+    ],
+    "retrieved": [
+      "eab7c205636bbdf6a170676a1d7106b0",
+      "d697584d6a69a758e3ebc0f9842636f7",
+      "9c0a3e8d7964be29b656449ecf6d23e7"
+    ],
+    "retrieval_ms": 0.8146249999754218,
+    "end_to_end_ms": 3084.666083000002,
+    "trace_id": "7678794d-9470-4fed-b2cb-3fc3ad80ce7c"
+  },
+  {
+    "case": "h8",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 3,
+    "gold": 3,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU. [1] Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs. [2]",
+    "citations": [
+      {
+        "chunk_id": "eab7c205636bbdf6a170676a1d7106b0",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our acquisition of Mellanox in 2020 expanded our innovation canvas to include networking and led to the introduction of a new processor class – the data processing unit, or DPU.",
+        "relevance": 2.6125481128692627,
+        "rendering": "model-selected source sentence",
+        "subquestion": "What did the Mellanox deal add"
+      },
+      {
+        "chunk_id": "d697584d6a69a758e3ebc0f9842636f7",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "Our full-stack includes the foundational CUDA programming model that runs on all NVIDIA GPUs, as well as hundreds of domain-specific software libraries, software development kits, or SDKs, and Application Programming Interfaces, or APIs.",
+        "relevance": 3.3743090629577637,
+        "rendering": "model-selected span",
+        "subquestion": "what role does CUDA play in the software stack?"
+      }
+    ],
+    "retrieved": [
+      "eab7c205636bbdf6a170676a1d7106b0",
+      "9c0a3e8d7964be29b656449ecf6d23e7",
+      "d697584d6a69a758e3ebc0f9842636f7"
+    ],
+    "retrieval_ms": 109.36583400007294,
+    "end_to_end_ms": 3152.3921670000163,
+    "trace_id": "6d8d4168-11c5-4297-a78e-8efc1159f958"
+  },
+  {
+    "case": "h9",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "64aa85431343b84d131eb2363127ac85",
+      "b12f35f0d1c75bab0f9c4a86e73ad5cd",
+      "02aaf1ea08ac71c490d259adbb57804d"
+    ],
+    "retrieval_ms": 0.4200000000764703,
+    "end_to_end_ms": 92.63012500014156,
+    "trace_id": "e1bf9eeb-fe94-467f-a511-c1b8da91543f"
+  },
+  {
+    "case": "h9",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "1668cbd582c9441a99007678c8829d26",
+      "864b4b3d8775a46c97461f0dee22ff8f",
+      "44ee61f2a83108b415dd0e85b2383fde"
+    ],
+    "retrieval_ms": 27.551916999982495,
+    "end_to_end_ms": 194.55187500011561,
+    "trace_id": "f4ef51a7-4e43-43b1-8c9b-84fcdfa659f5"
+  },
+  {
+    "case": "h9",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "64aa85431343b84d131eb2363127ac85",
+      "864b4b3d8775a46c97461f0dee22ff8f",
+      "16a2e7a850a8f468cebc6531d3bbd622"
+    ],
+    "retrieval_ms": 0.5093330000818241,
+    "end_to_end_ms": 81.25141699997585,
+    "trace_id": "f171200e-2000-41f6-929c-81b3aeebdb60"
+  },
+  {
+    "case": "h9",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "6aba6c64c359cb50c454c128f6ac316a",
+      "de85fcbdc69ba35cedbc158992e2e8d0",
+      "98e36f06a5c25e6e973ec5e9099f6e26"
+    ],
+    "retrieval_ms": 93.79037500002596,
+    "end_to_end_ms": 182.03454200011038,
+    "trace_id": "bea8167f-fd5e-40ca-a829-39163e10bdf1"
+  },
+  {
+    "case": "h10",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.03274999994573591,
+    "end_to_end_ms": 0.2118339998560259,
+    "trace_id": "f71540fe-425a-4438-831d-3f805b4f6d85"
+  },
+  {
+    "case": "h10",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.019208000139769865,
+    "end_to_end_ms": 0.08316699995702947,
+    "trace_id": "bc2ad8a5-b312-4237-a54b-d01401cbc424"
+  },
+  {
+    "case": "h10",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.018458000113241724,
+    "end_to_end_ms": 0.08191599999918253,
+    "trace_id": "59a6f428-1827-4e91-ab53-fc66674876c3"
+  },
+  {
+    "case": "h10",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [],
+    "retrieval_ms": 0.019333000182086835,
+    "end_to_end_ms": 0.08062500000960426,
+    "trace_id": "0c9c9f72-fab6-4dca-9bd8-5ab4932a7413"
+  },
+  {
+    "case": "h11",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "instruction override rejected",
+    "citations": [],
+    "retrieved": [
+      "ffc08809229f7fbe7a0533ec04bd042c",
+      "c2af9b64fc012cb3745442433c059ab6",
+      "ce48df138eb97d6d07285e6a4e1279d9"
+    ],
+    "retrieval_ms": 0.16470800005663477,
+    "end_to_end_ms": 0.22158299998409348,
+    "trace_id": "59cd6189-52eb-4b4b-acc8-c7c0ec7fc0ed"
+  },
+  {
+    "case": "h11",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "instruction override rejected",
+    "citations": [],
+    "retrieved": [
+      "f3a3c4da2e75355a14f1280a61ef5826",
+      "69377918344ff0543b99f75f009e37f3",
+      "b24bb861e90d25cea9392860c9530c78"
+    ],
+    "retrieval_ms": 29.147624999950494,
+    "end_to_end_ms": 29.404207999959908,
+    "trace_id": "ac641827-cb96-4c86-8e7b-2901f8e143e9"
+  },
+  {
+    "case": "h11",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "instruction override rejected",
+    "citations": [],
+    "retrieved": [
+      "f3a3c4da2e75355a14f1280a61ef5826",
+      "ce48df138eb97d6d07285e6a4e1279d9",
+      "6c9b87b25ef36ba98c299329a9f21de6"
+    ],
+    "retrieval_ms": 0.2685420001853345,
+    "end_to_end_ms": 0.37700000007134804,
+    "trace_id": "df2884e0-fd3a-48eb-947d-1cd99e37fb4e"
+  },
+  {
+    "case": "h11",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "instruction override rejected",
+    "citations": [],
+    "retrieved": [
+      "f3a3c4da2e75355a14f1280a61ef5826",
+      "20192dd1ad02cc20675b27fd3793a241",
+      "69377918344ff0543b99f75f009e37f3"
+    ],
+    "retrieval_ms": 107.01487499977702,
+    "end_to_end_ms": 107.32395800005179,
+    "trace_id": "12ee57a4-714d-48e0-a488-411f1de4ed14"
+  },
+  {
+    "case": "h12",
+    "split": "evaluation",
+    "method": "BM25",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "498044f7ab591067b0b31b5ca5357dce",
+      "98f3f9901b68ff66c67565b7cc616969",
+      "05f5591abf151cca58fb04b17d637b84"
+    ],
+    "retrieval_ms": 0.383958999918832,
+    "end_to_end_ms": 51.368167000191534,
+    "trace_id": "9ab64201-b8e6-4a4d-9050-0174e3cd6cf5"
+  },
+  {
+    "case": "h12",
+    "split": "evaluation",
+    "method": "Semantic",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "1ddfb61bc71a28705045308b32f46638",
+      "0991b770a23d29c1b56d11971bc4104f",
+      "1d992633a69f33411355972abefc39c8"
+    ],
+    "retrieval_ms": 28.50154099996871,
+    "end_to_end_ms": 71.94875000004686,
+    "trace_id": "32096f3e-3d29-442b-955e-fdeadc8740d3"
+  },
+  {
+    "case": "h12",
+    "split": "evaluation",
+    "method": "Hybrid",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "98f3f9901b68ff66c67565b7cc616969",
+      "498044f7ab591067b0b31b5ca5357dce",
+      "0991b770a23d29c1b56d11971bc4104f"
+    ],
+    "retrieval_ms": 0.49833299999590963,
+    "end_to_end_ms": 40.77779199997167,
+    "trace_id": "ab6e866f-6f7e-4b9d-ac59-8882d1a8f5d7"
+  },
+  {
+    "case": "h12",
+    "split": "evaluation",
+    "method": "Hybrid + reranker",
+    "hits": 0,
+    "gold": 0,
+    "k": 3,
+    "rr": 0,
+    "status": "abstained",
+    "answer": "insufficient evidence",
+    "citations": [],
+    "retrieved": [
+      "29c633cd9298827fde99b7ca20edeb6a",
+      "77f23ff06de2b77abfd0c9df7c83ef4e",
+      "a27a4f153eec6c7924add9a4b645533d"
+    ],
+    "retrieval_ms": 100.8489160001318,
+    "end_to_end_ms": 133.58087500000693,
+    "trace_id": "b99fcda6-9f46-43f7-b382-4d54f0aae588"
+  },
+  {
+    "case": "b1",
+    "split": "held-out",
+    "method": "BM25",
+    "hits": 2,
+    "gold": 2,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "GeForce NOW cloud gaming for playing PC games on underpowered devices [1]",
+    "citations": [
+      {
+        "chunk_id": "0b6bf8a2862efbd3146bdb93e318a015",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "GeForce NOW cloud gaming for playing PC games on underpowered devices",
+        "relevance": 1.4551483392715454,
+        "rendering": "model-selected span",
+        "subquestion": "What does the GeForce NOW offering let players do?"
+      }
+    ],
+    "retrieved": [
+      "0b6bf8a2862efbd3146bdb93e318a015",
+      "5a787a75f714674760c81be574d3b562",
+      "3f7ff12ada43493f5f057bea5a33319f"
+    ],
+    "retrieval_ms": 0.3595420000692684,
+    "end_to_end_ms": 1123.4992920001332,
+    "trace_id": "71ed4d14-2afa-4273-a538-1c161f4316c5"
+  },
+  {
+    "case": "b1",
+    "split": "held-out",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 2,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "GeForce Experience enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay. [1]",
+    "citations": [
+      {
+        "chunk_id": "b89c5707521e69b910c72c7b46d64802",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "GeForce Experience enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay.",
+        "relevance": 1.0144387483596802,
+        "rendering": "model-selected span",
+        "subquestion": "What does the GeForce NOW offering let players do?"
+      }
+    ],
+    "retrieved": [
+      "b89c5707521e69b910c72c7b46d64802",
+      "3f7ff12ada43493f5f057bea5a33319f",
+      "344dcd24ff06b7da7ac999e4b71698bc"
+    ],
+    "retrieval_ms": 29.610959000137882,
+    "end_to_end_ms": 1191.803082999968,
+    "trace_id": "fc0be3dc-983d-4b62-86c7-f0dd8d2a91a8"
+  },
+  {
+    "case": "b1",
+    "split": "held-out",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 2,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "GeForce Experience enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay. [1]",
+    "citations": [
+      {
+        "chunk_id": "b89c5707521e69b910c72c7b46d64802",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "GeForce Experience enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay.",
+        "relevance": 1.0144387483596802,
+        "rendering": "model-selected span",
+        "subquestion": "What does the GeForce NOW offering let players do?"
+      }
+    ],
+    "retrieved": [
+      "3f7ff12ada43493f5f057bea5a33319f",
+      "b89c5707521e69b910c72c7b46d64802",
+      "344dcd24ff06b7da7ac999e4b71698bc"
+    ],
+    "retrieval_ms": 0.5478339999172022,
+    "end_to_end_ms": 892.6038340000559,
+    "trace_id": "7f97f5bc-d2f8-48cf-ab4d-a5c8279d763b"
+  },
+  {
+    "case": "b1",
+    "split": "held-out",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 2,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "GeForce Experience enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay. [1]",
+    "citations": [
+      {
+        "chunk_id": "b89c5707521e69b910c72c7b46d64802",
+        "ticker": "NVDA",
+        "accession": "0001045810-24-000029",
+        "section": "1",
+        "filed": "2024-02-21",
+        "period": "2024-01-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "excerpt": "GeForce Experience enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay.",
+        "relevance": 1.0144387483596802,
+        "rendering": "model-selected source sentence",
+        "subquestion": "What does the GeForce NOW offering let players do?"
+      }
+    ],
+    "retrieved": [
+      "0b6bf8a2862efbd3146bdb93e318a015",
+      "3f7ff12ada43493f5f057bea5a33319f",
+      "b89c5707521e69b910c72c7b46d64802"
+    ],
+    "retrieval_ms": 109.22229199991307,
+    "end_to_end_ms": 1243.601665999904,
+    "trace_id": "4fc73b39-b876-4f44-bc3d-5671953f2905"
+  },
+  {
+    "case": "b2",
+    "split": "held-out",
+    "method": "BM25",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 0.5,
+    "status": "answered",
+    "answer": "Nuance is a leader in conversational AI and ambient intelligence across industries, including healthcare, financial services, retail, and telecommunications. [1]",
+    "citations": [
+      {
+        "chunk_id": "4723228aacabe784e70719d248d200f2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "Nuance is a leader in conversational AI and ambient intelligence across industries, including healthcare, financial services, retail, and telecommunications.",
+        "relevance": 5.375547409057617,
+        "rendering": "model-selected span",
+        "subquestion": "What areas of artificial intelligence does Microsoft associate with Nuance?"
+      }
+    ],
+    "retrieved": [
+      "bca4d4ea0bb4aceaac3fa9c992f578f2",
+      "4723228aacabe784e70719d248d200f2",
+      "b3b49e32b3cec3bd00f9e97fd3e9d4b7"
+    ],
+    "retrieval_ms": 0.3858749998926214,
+    "end_to_end_ms": 1522.4733329998799,
+    "trace_id": "ecadef97-a104-40ea-8e96-a7f428401b80"
+  },
+  {
+    "case": "b2",
+    "split": "held-out",
+    "method": "Semantic",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "conversational AI and ambient intelligence [1]",
+    "citations": [
+      {
+        "chunk_id": "4723228aacabe784e70719d248d200f2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "conversational AI and ambient intelligence",
+        "relevance": 5.375547409057617,
+        "rendering": "model-selected span",
+        "subquestion": "What areas of artificial intelligence does Microsoft associate with Nuance?"
+      }
+    ],
+    "retrieved": [
+      "4723228aacabe784e70719d248d200f2",
+      "3390cc8fa519e84966c04aa1b3a544c7",
+      "519eccfd08e9daf22931f337c919c322"
+    ],
+    "retrieval_ms": 31.615459000022383,
+    "end_to_end_ms": 983.10749999996,
+    "trace_id": "562b1699-0647-4ce7-8ab1-23b85300a0ed"
+  },
+  {
+    "case": "b2",
+    "split": "held-out",
+    "method": "Hybrid",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "conversational AI and ambient intelligence [1]",
+    "citations": [
+      {
+        "chunk_id": "4723228aacabe784e70719d248d200f2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "conversational AI and ambient intelligence",
+        "relevance": 5.375547409057617,
+        "rendering": "model-selected span",
+        "subquestion": "What areas of artificial intelligence does Microsoft associate with Nuance?"
+      }
+    ],
+    "retrieved": [
+      "4723228aacabe784e70719d248d200f2",
+      "bca4d4ea0bb4aceaac3fa9c992f578f2",
+      "3390cc8fa519e84966c04aa1b3a544c7"
+    ],
+    "retrieval_ms": 0.5371249999370775,
+    "end_to_end_ms": 897.993334000148,
+    "trace_id": "575679d2-ab22-4f92-8aa9-283f9208a446"
+  },
+  {
+    "case": "b2",
+    "split": "held-out",
+    "method": "Hybrid + reranker",
+    "hits": 1,
+    "gold": 1,
+    "k": 3,
+    "rr": 1.0,
+    "status": "answered",
+    "answer": "conversational AI and ambient intelligence across industries, including healthcare, financial services, retail, and telecommunications. [1]",
+    "citations": [
+      {
+        "chunk_id": "4723228aacabe784e70719d248d200f2",
+        "ticker": "MSFT",
+        "accession": "0000950170-24-087843",
+        "section": "1",
+        "filed": "2024-07-30",
+        "period": "2024-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "excerpt": "conversational AI and ambient intelligence across industries, including healthcare, financial services, retail, and telecommunications.",
+        "relevance": 5.375547409057617,
+        "rendering": "model-selected span",
+        "subquestion": "What areas of artificial intelligence does Microsoft associate with Nuance?"
+      }
+    ],
+    "retrieved": [
+      "4723228aacabe784e70719d248d200f2",
+      "bca4d4ea0bb4aceaac3fa9c992f578f2",
+      "3390cc8fa519e84966c04aa1b3a544c7"
+    ],
+    "retrieval_ms": 105.176290999907,
+    "end_to_end_ms": 906.2307499998496,
+    "trace_id": "d67d574e-dea8-4273-9436-04a515c31f4e"
+  }
+]

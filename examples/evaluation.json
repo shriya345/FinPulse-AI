@@ -1,0 +1,292 @@
+{
+  "single extraction": {
+    "correct": 12,
+    "total": 12,
+    "numeric_correct": 8,
+    "numeric_total": 8,
+    "supported": 11,
+    "unsupported": 0,
+    "answers_issued": 11,
+    "mean_latency_ms": 0.019302083122359665,
+    "cases": [
+      {
+        "question": "Apple revenue",
+        "expected": 391035000000.0,
+        "actual": 391035000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.023208000129670836,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      },
+      {
+        "question": "Apple earnings",
+        "expected": 93736000000.0,
+        "actual": 93736000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.021833000573678873,
+        "evidence_ids": [
+          "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541"
+        ]
+      },
+      {
+        "question": "Apple operating cash flow",
+        "expected": 118254000000.0,
+        "actual": 118254000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.021707999621867202,
+        "evidence_ids": [
+          "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c"
+        ]
+      },
+      {
+        "question": "Apple capex",
+        "expected": 9447000000.0,
+        "actual": 9447000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.016874999346327968,
+        "evidence_ids": [
+          "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+        ]
+      },
+      {
+        "question": "Apple free cash flow",
+        "expected": 108807000000.0,
+        "actual": 108807000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.012665999747696333,
+        "evidence_ids": [
+          "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c",
+          "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+        ]
+      },
+      {
+        "question": "Apple net margin, percent",
+        "expected": 23.971255769943866,
+        "actual": 23.971255769943866,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.006416999895009212,
+        "evidence_ids": [
+          "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      },
+      {
+        "question": "Microsoft revenue",
+        "expected": 245122000000.0,
+        "actual": 245122000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+        "latency_ms": 0.016749998394516297,
+        "evidence_ids": [
+          "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+        ]
+      },
+      {
+        "question": "Microsoft net income",
+        "expected": 88136000000.0,
+        "actual": 88136000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+        "latency_ms": 0.015084000551723875,
+        "evidence_ids": [
+          "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea"
+        ]
+      },
+      {
+        "question": "Which issuer had higher FY2024 revenue?",
+        "expected": "AAPL",
+        "actual": "AAPL",
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+        "latency_ms": 0.03641699913714547,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0",
+          "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+        ]
+      },
+      {
+        "question": "Does evidence include a forecast share price?",
+        "expected": null,
+        "actual": null,
+        "correct": true,
+        "reference": null,
+        "latency_ms": 0.01991600038309116,
+        "evidence_ids": []
+      },
+      {
+        "question": "Does Apple's revenue accession identify Apple's CIK?",
+        "expected": true,
+        "actual": true,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.020458999642869458,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      },
+      {
+        "question": "Does the filing support annual sales of $1?",
+        "expected": false,
+        "actual": false,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.020292000044719316,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      }
+    ]
+  },
+  "extraction with numeric verification": {
+    "correct": 12,
+    "total": 12,
+    "numeric_correct": 8,
+    "numeric_total": 8,
+    "supported": 11,
+    "unsupported": 0,
+    "answers_issued": 11,
+    "mean_latency_ms": 0.1179687499946643,
+    "cases": [
+      {
+        "question": "Apple revenue",
+        "expected": 391035000000.0,
+        "actual": 391035000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.1551669993204996,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      },
+      {
+        "question": "Apple earnings",
+        "expected": 93736000000.0,
+        "actual": 93736000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.12133299969718792,
+        "evidence_ids": [
+          "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541"
+        ]
+      },
+      {
+        "question": "Apple operating cash flow",
+        "expected": 118254000000.0,
+        "actual": 118254000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.11804200039478019,
+        "evidence_ids": [
+          "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c"
+        ]
+      },
+      {
+        "question": "Apple capex",
+        "expected": 9447000000.0,
+        "actual": 9447000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.11020800047845114,
+        "evidence_ids": [
+          "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+        ]
+      },
+      {
+        "question": "Apple free cash flow",
+        "expected": 108807000000.0,
+        "actual": 108807000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.12137500016251579,
+        "evidence_ids": [
+          "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c",
+          "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+        ]
+      },
+      {
+        "question": "Apple net margin, percent",
+        "expected": 23.971255769943866,
+        "actual": 23.971255769943866,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.11745799929485656,
+        "evidence_ids": [
+          "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      },
+      {
+        "question": "Microsoft revenue",
+        "expected": 245122000000.0,
+        "actual": 245122000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+        "latency_ms": 0.1111250003305031,
+        "evidence_ids": [
+          "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+        ]
+      },
+      {
+        "question": "Microsoft net income",
+        "expected": 88136000000.0,
+        "actual": 88136000000,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+        "latency_ms": 0.10604200178931933,
+        "evidence_ids": [
+          "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea"
+        ]
+      },
+      {
+        "question": "Which issuer had higher FY2024 revenue?",
+        "expected": "AAPL",
+        "actual": "AAPL",
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+        "latency_ms": 0.21599999854515772,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0",
+          "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+        ]
+      },
+      {
+        "question": "Does evidence include a forecast share price?",
+        "expected": null,
+        "actual": null,
+        "correct": true,
+        "reference": null,
+        "latency_ms": 0.024541999664506875,
+        "evidence_ids": []
+      },
+      {
+        "question": "Does Apple's revenue accession identify Apple's CIK?",
+        "expected": true,
+        "actual": true,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.10866699994949158,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      },
+      {
+        "question": "Does the filing support annual sales of $1?",
+        "expected": false,
+        "actual": false,
+        "correct": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "latency_ms": 0.10566600030870177,
+        "evidence_ids": [
+          "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+        ]
+      }
+    ]
+  }
+}

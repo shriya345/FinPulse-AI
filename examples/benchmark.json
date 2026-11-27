@@ -1,0 +1,182 @@
+{
+  "single": {
+    "provider": "deterministic",
+    "model": null,
+    "passed": 9,
+    "total": 12,
+    "supported": 3,
+    "unsupported": 0,
+    "numeric_claims": 3,
+    "valid_citations": 6,
+    "total_citations": 6,
+    "latency_ms": [
+      4.6613750000688015,
+      3.681207999761682,
+      1.7997499999182764
+    ],
+    "cases": [
+      {
+        "ticker": "AAPL",
+        "question": "Quantify a verified FY2024 strength",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "AAPL",
+        "question": "Report an earnings decline or explicitly state limited downside evidence",
+        "passed": false,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "AAPL",
+        "question": "Include source references for at least one numeric observation",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "AAPL",
+        "question": "Leave future performance unresolved",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Quantify a verified FY2024 strength",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Report an earnings decline or explicitly state limited downside evidence",
+        "passed": false,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Include source references for at least one numeric observation",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Leave future performance unresolved",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Quantify a verified FY2024 strength",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Report an earnings decline or explicitly state limited downside evidence",
+        "passed": false,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Include source references for at least one numeric observation",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Leave future performance unresolved",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      }
+    ]
+  },
+  "bull_bear": {
+    "provider": "deterministic",
+    "model": null,
+    "passed": 12,
+    "total": 12,
+    "supported": 4,
+    "unsupported": 0,
+    "numeric_claims": 4,
+    "valid_citations": 8,
+    "total_citations": 8,
+    "latency_ms": [
+      4.871208999247756,
+      3.9034999990690267,
+      1.9860410011460772
+    ],
+    "cases": [
+      {
+        "ticker": "AAPL",
+        "question": "Quantify a verified FY2024 strength",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "AAPL",
+        "question": "Report an earnings decline or explicitly state limited downside evidence",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "AAPL",
+        "question": "Include source references for at least one numeric observation",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "AAPL",
+        "question": "Leave future performance unresolved",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Quantify a verified FY2024 strength",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Report an earnings decline or explicitly state limited downside evidence",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Include source references for at least one numeric observation",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "MSFT",
+        "question": "Leave future performance unresolved",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Quantify a verified FY2024 strength",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Report an earnings decline or explicitly state limited downside evidence",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Include source references for at least one numeric observation",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      {
+        "ticker": "NVDA",
+        "question": "Leave future performance unresolved",
+        "passed": true,
+        "reference": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      }
+    ]
+  }
+}

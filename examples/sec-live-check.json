@@ -1,0 +1,35 @@
+[
+  {
+    "ticker": "AAPL",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+    "status": 200,
+    "bytes": 3859564,
+    "retrieved_first": "2026-11-25T12:17:56.750481+00:00",
+    "source_id": "5d6509d2034e89d239dfacc7f83e389ecb97bbb42544c042aff4f7302b64b54c",
+    "raw_matches_first": true,
+    "before": 1458,
+    "after": 1458
+  },
+  {
+    "ticker": "MSFT",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+    "status": 200,
+    "bytes": 4938072,
+    "retrieved_first": "2026-11-25T12:18:02.923383+00:00",
+    "source_id": "ba289e9ff4579110c5cd0ebd97d0d6533fc5599e8ce0cd9d5ad949c5e98383a5",
+    "raw_matches_first": true,
+    "before": 1580,
+    "after": 1580
+  },
+  {
+    "ticker": "NVDA",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "status": 200,
+    "bytes": 4092966,
+    "retrieved_first": "2026-11-25T12:18:09.012609+00:00",
+    "source_id": "893669f2839a838c6c75c8b92adfe1108e72b155ff249a931247c3520f1c5924",
+    "raw_matches_first": true,
+    "before": 1250,
+    "after": 1250
+  }
+]

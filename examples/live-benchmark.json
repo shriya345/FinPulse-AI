@@ -1,0 +1,351 @@
+{
+  "question": "Which annual financial measure supports a strength, which supports a downside, and what uncertainty remains? Abstain when the supplied measures do not support a side.",
+  "as_of": "2024-12-31",
+  "runs": {
+    "deterministic": [
+      {
+        "ticker": "AAPL",
+        "status": "ok",
+        "report_id": "f2c67ca7-4550-4e82-a921-22f3b296dce3",
+        "latency_ms": 5.570834000536706,
+        "model": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0",
+            "5633fcf5ed9441fe569a768f5ece3a6f31fcd22344116dc1942f1943598ecbf0"
+          ],
+          [
+            "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+            "09d2cc8ad2a939f957364c31779dcb29dba56e7e097324c8f8423047bf6e6953"
+          ],
+          [
+            "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+            "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+          ],
+          [
+            "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c",
+            "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+        ],
+        "numeric_correct": 2,
+        "numeric_attempts": 2,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 2,
+        "citation_attempts": 2,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 0,
+        "prose_withheld": 0
+      },
+      {
+        "ticker": "MSFT",
+        "status": "ok",
+        "report_id": "d934de63-fba2-4ef8-88b1-c0fc5258eec7",
+        "latency_ms": 3.96283300142386,
+        "model": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d",
+            "ebfb0a4c6690c4e090e16e80ad5e16ee79134957e72dd77bc82de01b2dc59007"
+          ],
+          [
+            "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea",
+            "ef0f2df45cb6b104b843d3b75aab497681ad3566291a71c09c7af68946b3183a"
+          ],
+          [
+            "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea",
+            "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+        ],
+        "numeric_correct": 1,
+        "numeric_attempts": 1,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 1,
+        "citation_attempts": 1,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 0,
+        "prose_withheld": 0
+      },
+      {
+        "ticker": "NVDA",
+        "status": "ok",
+        "report_id": "866b3ce7-d04e-486a-9f64-fa6fe09a199e",
+        "latency_ms": 1.9701249984791502,
+        "model": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "6c316e5985c5987f15b83d9751ec233fff60d8c71e2a8fe77aa59ac379fc81eb",
+            "c1a7bef1fb41a66fc6ffaac62b72442b9d866e91fbd5f3e6f39ae3d1811786a4"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+        ],
+        "numeric_correct": 1,
+        "numeric_attempts": 1,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 1,
+        "citation_attempts": 1,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 0,
+        "prose_withheld": 0
+      }
+    ],
+    "single_llm": [
+      {
+        "ticker": "AAPL",
+        "status": "ok",
+        "report_id": "5ad9dcd5-78c0-402d-aad6-09058eb171f3",
+        "latency_ms": 3863.9755830008653,
+        "model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+        "input_tokens": 549,
+        "output_tokens": 151,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0",
+            "5633fcf5ed9441fe569a768f5ece3a6f31fcd22344116dc1942f1943598ecbf0"
+          ],
+          [
+            "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+            "09d2cc8ad2a939f957364c31779dcb29dba56e7e097324c8f8423047bf6e6953"
+          ],
+          [
+            "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+            "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+          ],
+          [
+            "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c",
+            "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+        ],
+        "numeric_correct": 2,
+        "numeric_attempts": 2,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 2,
+        "citation_attempts": 2,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 0,
+        "prose_withheld": 2
+      },
+      {
+        "ticker": "MSFT",
+        "status": "ok",
+        "report_id": "7ac8213a-92e6-4003-9ccd-bbfcd131ef3f",
+        "latency_ms": 3315.3259999999136,
+        "model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+        "input_tokens": 490,
+        "output_tokens": 125,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d",
+            "ebfb0a4c6690c4e090e16e80ad5e16ee79134957e72dd77bc82de01b2dc59007"
+          ],
+          [
+            "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea",
+            "ef0f2df45cb6b104b843d3b75aab497681ad3566291a71c09c7af68946b3183a"
+          ],
+          [
+            "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea",
+            "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+        ],
+        "numeric_correct": 1,
+        "numeric_attempts": 1,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 1,
+        "citation_attempts": 1,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 0,
+        "prose_withheld": 1
+      },
+      {
+        "ticker": "NVDA",
+        "status": "ok",
+        "report_id": "e326f97c-e226-4a8b-b2e4-e56f7ba2a0f5",
+        "latency_ms": 2947.63866699941,
+        "model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+        "input_tokens": 386,
+        "output_tokens": 113,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "6c316e5985c5987f15b83d9751ec233fff60d8c71e2a8fe77aa59ac379fc81eb",
+            "c1a7bef1fb41a66fc6ffaac62b72442b9d866e91fbd5f3e6f39ae3d1811786a4"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+        ],
+        "numeric_correct": 1,
+        "numeric_attempts": 1,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 1,
+        "citation_attempts": 1,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 0,
+        "prose_withheld": 1
+      }
+    ],
+    "bull_bear_llm": [
+      {
+        "ticker": "AAPL",
+        "status": "ok",
+        "report_id": "1a6550c4-c570-4293-b338-43d27f35ab6d",
+        "latency_ms": 7673.417999998492,
+        "model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+        "input_tokens": 1262,
+        "output_tokens": 297,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0",
+            "5633fcf5ed9441fe569a768f5ece3a6f31fcd22344116dc1942f1943598ecbf0"
+          ],
+          [
+            "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+            "09d2cc8ad2a939f957364c31779dcb29dba56e7e097324c8f8423047bf6e6953"
+          ],
+          [
+            "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+            "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+          ],
+          [
+            "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c",
+            "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+        ],
+        "numeric_correct": 2,
+        "numeric_attempts": 2,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 2,
+        "citation_attempts": 2,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 2,
+        "prose_withheld": 1
+      },
+      {
+        "ticker": "MSFT",
+        "status": "ok",
+        "report_id": "f65a0768-2140-445e-ae49-6a8af170f6f5",
+        "latency_ms": 8402.332958998159,
+        "model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+        "input_tokens": 1187,
+        "output_tokens": 330,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d",
+            "ebfb0a4c6690c4e090e16e80ad5e16ee79134957e72dd77bc82de01b2dc59007"
+          ],
+          [
+            "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea",
+            "ef0f2df45cb6b104b843d3b75aab497681ad3566291a71c09c7af68946b3183a"
+          ],
+          [
+            "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea",
+            "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf"
+        ],
+        "numeric_correct": 1,
+        "numeric_attempts": 1,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 1,
+        "citation_attempts": 1,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 1,
+        "prose_withheld": 1
+      },
+      {
+        "ticker": "NVDA",
+        "status": "ok",
+        "report_id": "44d70348-911e-4fcb-a796-21d6dfde7b82",
+        "latency_ms": 8408.899874997587,
+        "model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+        "input_tokens": 962,
+        "output_tokens": 320,
+        "provider_fee_usd": 0,
+        "evidence_ids": [
+          [
+            "6c316e5985c5987f15b83d9751ec233fff60d8c71e2a8fe77aa59ac379fc81eb",
+            "c1a7bef1fb41a66fc6ffaac62b72442b9d866e91fbd5f3e6f39ae3d1811786a4"
+          ]
+        ],
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+        ],
+        "numeric_correct": 1,
+        "numeric_attempts": 1,
+        "unsupported_numeric_proposals": 0,
+        "valid_citations": 1,
+        "citation_attempts": 1,
+        "coverage": {
+          "Bull": true,
+          "Bear": true,
+          "uncertainty": true
+        },
+        "rejected_notes": 1,
+        "prose_withheld": 1
+      }
+    ]
+  }
+}

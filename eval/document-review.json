@@ -1,0 +1,220 @@
+{
+  "c3ffc89507dbf424bcbb8d62e9bef8d9bf5e8cb8ee14736d40b44af76775bbab": {
+    "case": "d1",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "5a8f546f5ff3928d0a23e3ca5657692b5b88b19395ec5507f9aef44e6571da7f": {
+    "case": "d1",
+    "fully_correct": false,
+    "responsive_citations": [],
+    "note": "Unnecessary abstention on disclosed distribution channels."
+  },
+  "df91699af264d2b36e9f879fe92142ad971c71a994cfdca38d13701b004842d1": {
+    "case": "d1",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "4496f1769ef3f61e970df45f4aaf7cf0a82662c9f7c89a87c9cd264d3af22cf3": {
+    "case": "d2",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "2627b7a6593daa45d0aae249a5dba62f8763d6f75cc3f0f5d48f4723c0ed3ae4": {
+    "case": "d3",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "f7e5c386def46aaaad548f2610185041b03c6ad1236a1b927e04d2d225715ad9": {
+    "case": "d4",
+    "fully_correct": true,
+    "responsive_citations": [],
+    "note": "Question outside eligible evidence or unsafe instruction."
+  },
+  "e403724661413344342ace977acedbc6f9d0199d07eb8459c8281dee172e54f8": {
+    "case": "d5",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "aef497d696649c3bd84d4c2731b1076dc42a61886156f16cf681b62ce96b48a8": {
+    "case": "d6",
+    "fully_correct": true,
+    "responsive_citations": [],
+    "note": "Question outside eligible evidence or unsafe instruction."
+  },
+  "9e337e3197d8bd60c56713ea54b2e06e6c75c30c72a9be6ce342eafca5a54dc8": {
+    "case": "h1",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "19d2069b5f511e8929bbf1f8c2d97ad5c40f5a535c35a89c6bd35a57a411e7b3": {
+    "case": "h2",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "057b606700f3e816a8e818831bfc00e3f41dbfe4e2578948e4de7a0263b9a83a": {
+    "case": "h2",
+    "fully_correct": false,
+    "responsive_citations": [
+      false
+    ],
+    "note": "Discusses margin instead of identifying sales drivers."
+  },
+  "fe2b1080b4adc3ef391753bfce83dc877ea1b9091243e8b600aac3ddcf5b041c": {
+    "case": "h3",
+    "fully_correct": false,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Answers the distribution question only; explicitly abstains on growth."
+  },
+  "6f6beaf76c419e2f59201070c2a3a371f59e8d9fee3508df2f3f802aece9ee3e": {
+    "case": "h3",
+    "fully_correct": false,
+    "responsive_citations": [
+      false,
+      true
+    ],
+    "note": "The same sales-growth sentence is used twice. It fails to answer how advertising is sold."
+  },
+  "578cd4aa07206535847c0f26a65c875f0fadc93d196dbf5ab073ceb037da3a20": {
+    "case": "h4",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "8bc0b1c6868b256f393cf2b0dc224edba8e1507b02283814ffd1c6e38fc4cd44": {
+    "case": "h5",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "e696e84cf566e9c7d7fe4a78811f1e9d4e7bcf581bf4b451db85cf7962d66eee": {
+    "case": "h5",
+    "fully_correct": false,
+    "responsive_citations": [],
+    "note": "Abstains despite disclosed licensing economics."
+  },
+  "306e7357b73e1ca337ce40bde46057fff92ffb118beb63d927f166face354da6": {
+    "case": "h6",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "67cbf6ceec11c8b61a651759e2c210d7a37ce9e725416f29eadc33108c0fde9f": {
+    "case": "h7",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "60c11688c95cbf28104831edcf0403338878ceeb0161f4f0e8c3e9d3151f4a81": {
+    "case": "h7",
+    "fully_correct": false,
+    "responsive_citations": [
+      false
+    ],
+    "note": "Describes a mismatch generically; does not identify provisions or impairments."
+  },
+  "902b076b17d18e28075596e804150e0af2cab4c9132f50ea501c32f61139a0a4": {
+    "case": "h8",
+    "fully_correct": true,
+    "responsive_citations": [
+      true,
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "8073aa6614681c89d80fcac946a0821034501d76ad0cbe3339eb7878d159e380": {
+    "case": "h9",
+    "fully_correct": true,
+    "responsive_citations": [],
+    "note": "Question outside eligible evidence or unsafe instruction."
+  },
+  "61ebfb3eda79a22a342f5b6fe0cbbd87af155d2ccfa1fff6a37be33ab4d94aff": {
+    "case": "h10",
+    "fully_correct": true,
+    "responsive_citations": [],
+    "note": "Question outside eligible evidence or unsafe instruction."
+  },
+  "f7642a1528bbc10d1f79d87deb76a2395a3368d4fbd4ee6afdb021ddf75ea5e1": {
+    "case": "h11",
+    "fully_correct": true,
+    "responsive_citations": [],
+    "note": "Question outside eligible evidence or unsafe instruction."
+  },
+  "4ad228655a6a82fa98af25d2be9bd2a980fdfeaff4437a8aad9421664fa0b94d": {
+    "case": "h12",
+    "fully_correct": true,
+    "responsive_citations": [],
+    "note": "Question outside eligible evidence or unsafe instruction."
+  },
+  "7dee42589a77bfb08e699c07e6004613fb6e318aeaff5ac1853c86dcc245d4b8": {
+    "case": "b1",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "1316a8ea8109baa05669dd7966e07c17f11a3d77ee8ddbd0c075eadfeb3549fe": {
+    "case": "b1",
+    "fully_correct": false,
+    "responsive_citations": [
+      false
+    ],
+    "note": "Passage describes GeForce Experience, a different product from GeForce NOW."
+  },
+  "eef3724435e42af0deafc5cc5b02fc455a58c24b143fa8b9c182719c01d2eb9e": {
+    "case": "b2",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "516899290ea07a65d1e97ac7d9900176137c96be979285ef216349a81f5faaf9": {
+    "case": "b2",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  },
+  "664ff0a04947c63350d2d5d613b3002c531099a2ee97a7d72c1d828ba531569e": {
+    "case": "b2",
+    "fully_correct": true,
+    "responsive_citations": [
+      true
+    ],
+    "note": "Matches the prewritten reference."
+  }
+}

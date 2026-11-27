@@ -1,0 +1,29 @@
+[
+  {
+    "ticker": "AAPL",
+    "accession": "0000320193-24-000123",
+    "period": "2024-09-28",
+    "filed": "2024-11-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+    "retrieved": "2026-11-25T21:14:10.929327+00:00",
+    "sha256": "a327b26c4fb3f62767baf424fda2a3a28415a5e19ea34bbc5396cbc8c6914aa9"
+  },
+  {
+    "ticker": "MSFT",
+    "accession": "0000950170-24-087843",
+    "period": "2024-06-30",
+    "filed": "2024-07-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "retrieved": "2026-11-25T21:14:21.590988+00:00",
+    "sha256": "d7211df9d3fb8abe2f29e4f828263aa16b1594c8e39ab0a5ef7eea0551919dda"
+  },
+  {
+    "ticker": "NVDA",
+    "accession": "0001045810-24-000029",
+    "period": "2024-01-28",
+    "filed": "2024-02-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+    "retrieved": "2026-11-25T21:14:31.541271+00:00",
+    "sha256": "16e8cffdfc36a9482ca4e0c3941b2d42e5f5e84bd7fc3657b8e2351f5d0ec1c5"
+  }
+]
